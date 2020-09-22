@@ -7,9 +7,19 @@
 			"problemMatcher": [
 				"$tsc"
 			],
-			"group": "build",
-			"label": "npm: build",
-			"detail": "tsc"
+			"group": {
+				"isDefault": true,
+				"kind": "build"
+			}
+			"label": "build",
+			"detail": "tsc",
+			"presentation": {
+				"echo": true,
+				"reveal": "never",
+				"focus": false,
+				"panel": "shared",
+				"clear": true
+			}
 		}
 	]
 }
