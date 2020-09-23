@@ -1,4 +1,4 @@
-/// <reference path="jsx.d.ts" />
+/// <reference path="../@types/jsx.d.ts" />
 export { Component } from './component';
 export { createElement } from './element';
 export { render } from './reconciler';
