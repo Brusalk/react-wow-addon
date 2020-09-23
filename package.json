@@ -1,11 +1,12 @@
 {
   "name": "@brusalk/react-wow-addon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React-style UI Framework for World of Warcraft AddOns",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "prepublish": "npm run build",
     "test": "echo NYI"
   },
   "repository": {
@@ -33,5 +34,8 @@
     "ts-node": "^9.0.0",
     "typescript-to-lua": "^0.35.0",
     "typescript": "^3.6.3"
-  }
+  },
+  "files": [
+    "dist/"
+  ]
 }
