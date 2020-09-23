@@ -2,7 +2,8 @@
   "name": "@brusalk/react-wow-addon",
   "version": "1.0.0",
   "description": "React-style UI Framework for World of Warcraft AddOns",
-  "main": "index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo NYI"
@@ -24,11 +25,13 @@
   "author": "Brusalk",
   "license": "MIT",
   "devDependencies": {
-    "tslint": "^5.20.0",
-    "typescript": "^3.6.3"
+    "tslint": "^5.20.0"
   },
   "dependencies": {
     "@wartoshika/wow-declarations": "^8.3.0-release.1",
-    "lua-types": "^2.8.0"
+    "lua-types": "^2.8.0",
+    "ts-node": "^9.0.0",
+    "typescript-to-lua": "^0.35.0",
+    "typescript": "^3.6.3"
   }
 }
