@@ -9,3 +9,6 @@ This project is based off of work done by Tim Stirrat in [tsCooldown](https://gi
 # Usage
 
 TODO
+
+# Note
+This library is largely blocked on the merge of https://github.com/TypeScriptToLua/TypeScriptToLua/pull/909, which will support importing/requiring lua code from dependencies. Once that PR is merged, this package should be largely ready-to-use
